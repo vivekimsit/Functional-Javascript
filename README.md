@@ -1,4 +1,4 @@
 Functional-Javascript
 =====================
 
-Source code from the book http://amzn.to/1EEifhM
+Source code from the book http://www.functionaljavascript.com/
