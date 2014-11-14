@@ -44,3 +44,21 @@ function parseAge(age) {
   return a;
 }
 ```
+
+Functions as Units of Behavior
+==============================
+
+Data as Abstraction
+===================
+
+On Speed
+========
+
+Sometimes functional calls are expensive as compared to the raw code. But due to the optimization compilers like v8 egine many statical checks are done (**inline functions** and **dead code elimination**).
+
+Summary
+=======
+
+1. Identify an abstraction and build a function for it.
+2. Use existing function / abstraction to build more complex abstractions.
+3. Passing existing functions to other functions to build even more complex abstractions.
