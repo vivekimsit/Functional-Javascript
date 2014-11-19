@@ -60,7 +60,7 @@ globalThis();
 
 globalThis.call('foo');
 //=> 'foo'
-globalThis.call('bar', []);
+globalThis.apply('bar', []);
 //=> 'bar'
 ```
 
