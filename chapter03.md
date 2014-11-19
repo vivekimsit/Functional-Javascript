@@ -7,9 +7,6 @@ Binding: Act of assgning a value to a name in javascript via:
   * this passing and
   * property assignment
 
-* Global scope
-* Lexical scope
-* Function scope
 
 The extent of a scope refers to the lifetime of a variable (i.e. how long a variable hold a certain value).
 
