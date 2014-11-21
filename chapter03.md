@@ -64,5 +64,22 @@ globalThis.apply('bar', []);
 //=> 'bar'
 ```
 
+Function scope: The only way to create a new scope in JS.
+```javascript
+function strangeIndentity(n) {
+  for(var i = 0; i < n; i++);
+  return i;
+}
+
+// Similar implementation
+function strangeIndentity(n) {
+  var i; // JS internally moves all the variable decalaration to the top of the body: **Hoisting**
+  for(i = 0; i < n; i++);
+  return i;
+}
+```
+
+TODO: Closure simulation
+
 Summary
 =======
