@@ -35,3 +35,13 @@ createPerson()
   .setAge(26)
   .toString()
 ```
+
+Lazy Chaining
+=============
+
+Pipelining
+==========
+
+Summary
+=======
+Viewing behavior as a sequence of discrete steps.
